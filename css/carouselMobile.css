@@ -1,0 +1,20 @@
+.section__carousel {
+    display: flex;
+    flex-direction: column;
+}
+
+.cor__control {
+    color: #0CE897;
+}
+
+@media(min-width: 450px) {
+    .section__carousel {
+        display: none;
+    }
+}
+
+@media(min-width: 360px) {
+    .section__carousel {
+        margin: 0 40px;
+    }
+}

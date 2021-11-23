@@ -1,0 +1,33 @@
+header {
+    background-color: #0f93ff;
+}
+
+#div__nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#logo__text {
+    color: #fff;
+}
+
+i {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+form {
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 12rem;
+}
+
+.form__btn {
+    display: flex;
+}
+
+@media(max-width:550px) {
+    #logo__text {
+        display: none;
+    }
+}

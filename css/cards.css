@@ -1,0 +1,61 @@
+.section__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link__cards {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 0px 4px #00000071;
+}
+
+.link__cards:hover {
+    color: #fff;
+}
+
+.card__hotel {
+    background-color: #0CE897;
+    border-radius: 10px;
+    border-color: #17644823;
+    max-width: 270px;
+}
+
+.img__card {
+    border-radius: 10px;
+    padding: 3px;
+    max-height: 60%; 
+}
+
+.card-title {
+    font-size: 0.9rem;
+}
+
+.div__avaliacao i {
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.btn__card {
+    background-color: #fff;
+    color: #068686;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 6px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #00000057;
+}
+
+.btn__card:hover {
+    color: #fff;
+    background-color: #088054;
+}
+
+@media(max-width: 450px) {
+    .section__cards {
+        display: none;
+    }
+}
